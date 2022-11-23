@@ -3,11 +3,11 @@ import Meta from "../components/Meta";
 import Footer from "../components/Footer";
 import Image from "next/image";
 import steam from "../public/assets/steam.png";
-import epic from "../public/assets/epic.jpg";
+import epic from "../public/assets/epicgames.png";
 import riot from "../public/assets/riot.png";
 import origin from "../public/assets/origin.png";
 import rockstar from "../public/assets/rockstar.png";
-import battlenet from "../public/assets/battlenet.jpg";
+import battlenet from "../public/assets/batlenett.png";
 
 export default function Tools() {
   return (
@@ -32,7 +32,7 @@ export default function Tools() {
           </div>
           <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
             <div class="p-4 md:w-1/3 flex flex-col text-justify items-center">
-              <div class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
+              <div class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-gray-900 text-indigo-500 mb-5 flex-shrink-0">
                 <Image alt="icon" src={steam} className="rounded-full" />
               </div>
               <div class="flex-grow">
@@ -47,7 +47,7 @@ export default function Tools() {
               </div>
             </div>
             <div class="p-4 md:w-1/3 flex flex-col text-justify items-center">
-              <div class="bg-white bg-none w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
+              <div class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-gray-900 text-indigo-500 mb-5 flex-shrink-0">
                 <Image alt="icon" src={epic} className="rounded-full" />
               </div>
               <div class="flex-grow">
@@ -61,7 +61,7 @@ export default function Tools() {
               </div>
             </div>
             <div class="p-4 md:w-1/3 flex flex-col text-justify items-center">
-              <div class="bg-white w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
+              <div class="bg-gray-900 w-20 h-20 inline-flex items-center justify-center rounded-full  text-indigo-500 mb-5 flex-shrink-0">
                 <Image alt="icon" src={riot} className="rounded-full" />
               </div>
               <div class="flex-grow">
@@ -78,7 +78,7 @@ export default function Tools() {
               </div>
             </div>
             <div class="p-4 md:w-1/3 flex flex-col text-justify items-center">
-              <div class=" w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0 ">
+              <div class=" w-20 h-20 inline-flex items-center justify-center rounded-full bg-gray-900 text-indigo-500 mb-5 flex-shrink-0 ">
                 <Image alt="icon" src={battlenet} className="rounded-full " />
               </div>
               <div class="flex-grow">
@@ -94,7 +94,7 @@ export default function Tools() {
               </div>
             </div>
             <div class="p-4 md:w-1/3 flex flex-col text-justify items-center">
-              <div class="bg-white w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
+              <div class="bg-gray-900 w-20 h-20 inline-flex items-center justify-center rounded-full  text-indigo-500 mb-5 flex-shrink-0">
                 <Image alt="icon" src={origin} className="rounded-full" />
               </div>
               <div class="flex-grow">
@@ -109,7 +109,7 @@ export default function Tools() {
               </div>
             </div>
             <div class="p-4 md:w-1/3 flex flex-col text-justify items-center">
-              <div class="bg-white w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 bg-none flex-shrink-0">
+              <div class="bg-gray-900 w-20 h-20 inline-flex items-center justify-center rounded-full  text-indigo-500 mb-5 flex-shrink-0">
                 <Image alt="icon" src={rockstar} className="rounded-full " />
               </div>
               <div class="flex-grow">

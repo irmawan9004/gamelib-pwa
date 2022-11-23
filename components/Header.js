@@ -16,26 +16,6 @@ export default function Header() {
             <p class="ml-3  text-sm text-slate-200">Be Number One Gamers</p>
           </div>
         </Link>
-        <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
-          <Link href="/" class="mr-5 hover:text-violet-700 text-slate-200">
-            Home
-          </Link>
-          <Link
-            href="/review"
-            class="mr-5 hover:text-violet-700 text-slate-200"
-          >
-            Gamelist
-          </Link>
-          <Link href="/tools" class="mr-5 hover:text-violet-700 text-slate-200">
-            Review
-          </Link>
-          <Link
-            href="/aboutus"
-            class="mr-5 hover:text-violet-700 text-slate-200"
-          >
-            About Us
-          </Link>
-        </nav>
       </div>
     </header>
   );

@@ -3,7 +3,7 @@ import Header from "../components/Header";
 import Meta from "../components/Meta";
 import Footer from "../components/Footer";
 import banner from "../public/assets/game-wallpaper.jpg";
-import mypic from "../public/assets/ida.webp";
+import mypic from "../public/assets/M.Irmawan-foto.JPG";
 
 export default function Aboutus() {
   return (
@@ -24,8 +24,14 @@ export default function Aboutus() {
             </div>
             <div class="flex flex-col sm:flex-row mt-10">
               <div class="sm:w-1/3 text-center sm:pr-8 sm:py-8">
-                <div class="w-20 h-20 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400">
-                  <Image alt="profile" className="rounded-full" src={mypic} />
+                <div class="w-20 h-20 rounded-full inline-flex items-center justify-center bg-gray-900 text-gray-400 ">
+                  <Image
+                    alt="profile"
+                    className="rounded-full object-cover"
+                    height={400}
+                    width={400}
+                    src={mypic}
+                  />
                 </div>
                 <div class="flex flex-col items-center text-center justify-center">
                   <h2 class="font-medium title-font mt-4 text-gray-900 text-lg text-white">
