@@ -22,13 +22,13 @@ export default function Hero() {
                   Games List
                 </h2>
                 <p class="leading-relaxed text-slate-200">
-                  Daftar game yang menarik untuk dimainkan para Gamer Sejati
+                  List of interesting games for Real Gamers to play
                 </p>
                 <Link
                   href="/tools"
                   class="mt-3 text-indigo-500 inline-flex items-center "
                 >
-                  Telusuri
+                  Find More
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -58,14 +58,14 @@ export default function Hero() {
                       Platform Games
                     </h2>
                     <p class="leading-relaxed text-slate-200">
-                      Penyedia game digital yang bisa menjadi pilihan para{" "}
-                      <span className="bold">Gamer Sejati</span>
+                      Digital game provider that can be the choice of true
+                      gamers
                     </p>
                     <Link
                       href="/review"
                       class="mt-3 text-indigo-500 inline-flex items-center"
                     >
-                      Telusuri
+                      Find more
                       <svg
                         fill="none"
                         stroke="currentColor"
@@ -95,8 +95,8 @@ export default function Hero() {
                       About Us
                     </h2>
                     <p class="leading-relaxed text-slate-200">
-                      Detail dari WebApp dan info menarik lainnya tentang
-                      Gamelib
+                      Details from this website and other interesting
+                      information about Gamelib
                     </p>
                     <Link
                       href="/aboutus"

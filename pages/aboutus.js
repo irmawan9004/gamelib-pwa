@@ -40,8 +40,8 @@ export default function Aboutus() {
                   </h2>
                   <div class="w-12 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>
                   <p class="text-base text-slate-200">
-                    Hanyalah seorang individu yang ingin berusaha lebih baik
-                    dari kemarin
+                    Just an individual who wants to try to be better than
+                    yesterday
                   </p>
                 </div>
               </div>
