@@ -4,6 +4,8 @@ import Image from "next/image";
 import Meta from "../components/Meta";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
+import Link from "next/link";
 
 export default function Home() {
   const router = useRouter();
@@ -21,7 +23,7 @@ export default function Home() {
       <Header />
 
       <section class="text-gray-600 body-font bg-gray-900">
-        <div class="container mx-auto flex px-5 py-8 items-center justify-center flex-col">
+        <div class="container mx-auto flex px-5 py-40 items-center justify-center flex-col">
           <Image
             class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded"
             alt="cover"
@@ -41,8 +43,15 @@ export default function Home() {
               }`}
             </p>
           </div>
+          <Link
+            href="/review"
+            class="mt-3 text-indigo-500 inline-flex items-center "
+          >
+            Back
+          </Link>
         </div>
       </section>
+      <Navbar />
 
       <Footer />
     </div>

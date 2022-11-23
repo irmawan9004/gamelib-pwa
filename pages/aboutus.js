@@ -4,6 +4,7 @@ import Meta from "../components/Meta";
 import Footer from "../components/Footer";
 import banner from "../public/assets/game-wallpaper.jpg";
 import mypic from "../public/assets/M.Irmawan-foto.JPG";
+import Navbar from "../components/Navbar";
 
 export default function Aboutus() {
   return (
@@ -11,7 +12,7 @@ export default function Aboutus() {
       <Meta title="About Us" />
       <Header />
       <section class="text-gray-600 body-font bg-gray-900">
-        <div class="container px-5 py-8 mx-auto flex flex-col">
+        <div class="container px-5 py-16 mx-auto flex flex-col">
           <div class="lg:w-4/6 mx-auto">
             <div class="rounded-lg h-64 overflow-hidden">
               <Image
@@ -75,6 +76,7 @@ export default function Aboutus() {
           </div>
         </div>
       </section>
+      <Navbar />
       <Footer />
     </div>
   );

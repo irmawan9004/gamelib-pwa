@@ -8,6 +8,7 @@ import riot from "../public/assets/riot.png";
 import origin from "../public/assets/origin.png";
 import rockstar from "../public/assets/rockstar.png";
 import battlenet from "../public/assets/batlenett.png";
+import Navbar from "../components/Navbar";
 
 export default function Tools() {
   return (
@@ -128,6 +129,7 @@ export default function Tools() {
           </div>
         </div>
       </section>
+      <Navbar />
       <Footer />
     </div>
   );
