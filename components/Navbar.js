@@ -21,7 +21,7 @@ export default function Navbar() {
           </div>
           <p className="hover:text-violet-700 text-slate-200 font-bold">Home</p>
         </Link>
-        <Link href="/review" class="mr-5 ">
+        <Link href="/gamelist" class="mr-5 ">
           <div className="ml-3">
             <FontAwesomeIcon
               icon={faGamepad}
@@ -32,7 +32,7 @@ export default function Navbar() {
             Gamelist
           </p>
         </Link>
-        <Link href="/tools" class="mr-5 ">
+        <Link href="/platform" class="mr-5 ">
           <div className="ml-10">
             <FontAwesomeIcon
               icon={faDungeon}

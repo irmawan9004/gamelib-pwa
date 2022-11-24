@@ -25,7 +25,7 @@ export default function Hero() {
                   List of interesting games for Real Gamers to play
                 </p>
                 <Link
-                  href="/tools"
+                  href="/gamelist"
                   class="mt-3 text-indigo-500 inline-flex items-center "
                 >
                   Find More
@@ -62,7 +62,7 @@ export default function Hero() {
                       gamers
                     </p>
                     <Link
-                      href="/review"
+                      href="/platform"
                       class="mt-3 text-indigo-500 inline-flex items-center"
                     >
                       Find more
@@ -102,7 +102,7 @@ export default function Hero() {
                       href="/aboutus"
                       class="mt-3 text-indigo-500 inline-flex items-center"
                     >
-                      Telusuri
+                      Find more
                       <svg
                         fill="none"
                         stroke="currentColor"
