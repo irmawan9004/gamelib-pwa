@@ -73,18 +73,15 @@ export default function Meta(props) {
         sizes="16x16"
         href="/assets/favicon-16x16.png"
       />
+      <link rel="icon" href="/favicon.ico" />
       <link rel="manifest" href="/manifest.json" />
-      <link rel="icon" href="/assets/icon.ico" />
       <meta name="msapplication-TileColor" content="#ffffff" />
       <meta
         name="msapplication-TileImage"
         content="/assets/ms-icon-144x144.png"
       />
       <meta name="theme-color" content="#ffffff" />
-      <meta
-        name="description"
-        content="List of freshwater aquarium fish species"
-      />
+      <meta name="description" content="Browse authentic culinaries." />
     </Head>
   );
 }
